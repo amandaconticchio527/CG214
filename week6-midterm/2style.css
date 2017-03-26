@@ -1,0 +1,27 @@
+table, th, td { border: 1px solid black;
+text-align: center}
+
+body {background-color: bisque;
+ padding-right: 10%;
+padding-left: 10%;}
+
+p{ font-weight: bold;
+font-size: 20px;
+text-align: center}
+
+.table {padding:25px;
+    margin-left: 50px;
+    margin-right:50px;
+    color:darkred;
+    font-size: 25px}
+
+h1{ text-align: center;}
+
+
+.extra {color:darkred}
+
+iframe {margin-left:100px;
+margin-right:25px;
+padding:40px}
+
+
