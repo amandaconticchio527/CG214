@@ -1,0 +1,48 @@
+body {padding-left:20%;
+     padding-right:10%;
+    width:550px }
+    
+    
+.grid { width:500px;
+    padding: 5px}
+
+.header {border-bottom: 2px solid black;
+        width: 500px;
+        color: white}
+
+.Search { display: inline-block;
+        width:100px;
+        position:relative;
+        top: -15px;
+        left: 30px} 
+
+input {width: 100px;
+    text-indent:30px;}
+
+#button {display:inline-block;
+        position:relative;
+        left: 70px;
+        top: -15px}
+
+button {border-style:none;
+        background: none}
+
+.food {display: inline-block;
+    position:relative;
+    bottom: -30px}
+
+.food p {position:relative;
+    left: 100px;
+    top: -80px;
+    text-align: center;
+   }
+
+p { font-weight: bold;  }
+
+
+
+
+
+
+
+
