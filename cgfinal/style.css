@@ -1,0 +1,95 @@
+body {padding-left: 20%;
+    background-color:bisque}
+
+ h1 {font-weight: bold;
+    font-size: 50px;}
+
+
+.header {width: 800px;
+        border-bottom: 2px solid black; 
+       text-align: center;
+        color: dimgray}
+
+.About {float:left;
+        border: solid;
+        width:300px;
+        display:inline-block;
+        position:relative;
+        top: 15px;
+        left:30px;
+        color:crimson}
+
+
+.Contact { border: solid;
+        width:300px;
+        display:inline-block;
+        position:relative;
+        top: 70px;
+        right:-70px;
+        color:darkmagenta}
+
+.slideshow {width: 400px;
+            height: 450px;
+        position:relative;
+        left:-20px;
+        bottom: -30px}
+
+.slideshow p { width:300px;
+        border: solid;
+        color:cadetblue;
+        position: relative;
+        left:50px;}
+
+.reference { width:400px;
+    position:relative;
+    top:-375px;
+    right:-400px}
+
+.process1 { color:darkblue;
+        border: solid;
+        width:450px;
+        display:inline-block;
+        position:relative;
+        top:-400px;
+        font-size:20px}
+
+.seaside { width: 250px;
+        display:inline-block;
+        position:relative;
+        top:-350px;
+        right:-20px}
+
+.process2 { color:deeppink;
+        border: solid;
+        width:450px;
+        display:inline-block;
+        position:relative;
+        top:-380px;
+        right:-350px;
+        font-size:20px}
+
+.skyride { width:300px;
+            display:inline-block;
+            position:relative;
+            left:-450px;
+            top:-350px}
+        
+.images { width: 900px;
+     display:inline-block;
+        position:relative;
+        top:-350px;
+        left: -100px}
+.images h2 { text-align: center}
+
+.left2right {border:solid;
+        color: cornflowerblue;
+        width:100px;
+        display:inline-block;
+        position:relative;
+        top: -250px;
+        right:-120px}
+
+
+
+
+            

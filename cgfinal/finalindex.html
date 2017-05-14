@@ -1,0 +1,93 @@
+<!Doctype HTML>
+<html> 
+    <head>   
+    <link href="style.css" type="text/css" rel="stylesheet" >
+    </head>
+    
+    <body>    
+    <div class="header">
+        <h1> Amanda Conticchio</h1>
+    </div>
+        
+    <div class="About">
+        <p> Hi Everyone! Welcome to by webpage about me and my art work! I am a Fine Artist here at Fashion Institue of Technology. I am in my 6th semester. I work with a lot of different mediums, and right now I am trying to figure myself out as an artist. </p>
+        </div>
+            
+     <div class="Contact">
+        <H2> Contact</H2>
+        <p> Email:aconticchio@yahoo.com</p>
+        <p> Instagram: amandaconticchio</p>   
+     </div>  
+        
+<div class=slideshow>
+    
+    <p>The slideshow below was from my second project this semester. I like to take pictures of my progress, it really helps! We had a choice of doing a dream or childhood memory, so mine was from Seaside, Heights NJ.  </p>
+  <img class="mySlides" src="images/picture1.jpg" style="width:100%">
+  <img class="mySlides" src="images/picture%202.jpg" style="width:100%" >
+  <img class="mySlides" src="images/picture3.jpg" style="width:100%">
+  <img class="mySlides" src="images/picture4.jpg" style="width:100%">
+   <img class="mySlides" src="images/picture5.jpg"style="width:100%">
+     <img class="mySlides" src="images/picture6.jpg" style="width:100%">
+     <img class="mySlides" src="images/picture7.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+            
+    <div class="reference">
+     <h2> Reference image I worked from!</h2>
+    <img src="images/Seaside_Heights,_NJ.jpg" height="300px" width="350px">    
+    </div>
+        
+    <div class="process1">
+        <p> First I taped a border around my canvas since that was a requirment to have. Then, I started off with the sky mixing a bunch of different blues and reds. After I started adding text (another requirment) using stensils. It was alittle difficult to decide what to write because I wanted it to look like an advertisment for Seaside.  </p>
+        </div>
+        
+        <div class="seaside">
+        <img src="images/images.jpg">
+        </div>
+        
+    <div class="process2"> 
+        <p> Slides 3 to 7 were just me finishing up the piece. I started to pay atention to small details, finishing the text, adding sand to get texture and brighting my colors throughout. Last decision was putting in those tiny silhouettes of the people in the store. It was fun project because of all the memories I have with my family, and I am proud of how the final product turned out!</p>
+    </div>    
+        
+    <div class="skyride">
+     <img src="images/SeasideHeightsSkyRide.jpg" width="300px" height="200px">
+    </div>   
+        
+    <div class="images">
+        
+    <h2> A few other artworks from this semester</h2>
+    <div class="left2right">
+        <p > left to right:
+            plaster casts of a bottle from home
+            printmaking tecnique called cyanotype
+            plaster cast of my feet</p>
+     </div>
+        <img src="images/bottles.jpg" width="250px">
+        <img src="images/cyanotype.jpg" width="250px" height="350px">
+        <img src="images/feetcast.jpg" width="250px">
+     </div>    
+        
+        
+  
